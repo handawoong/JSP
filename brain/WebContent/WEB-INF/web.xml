@@ -1,0 +1,12 @@
+
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="2.5">
+	<servlet>
+		<servlet-name>hundred-servlet</servlet-name>
+		<servlet-class>HundredServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>hundred-servlet</servlet-name>
+		<url-pattern>/hundred</url-pattern>
+	</servlet-mapping>
+</web-app>
